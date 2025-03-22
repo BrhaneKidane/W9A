@@ -19,7 +19,7 @@ else if(user_age > 18 && !is_subscribed){
 
 }
 
-if(user_age > 18 && is_subscribed && user_points >=100){
+if((user_age > 18 && is_subscribed) || user_points >=100){
     console.log("The user is older than 18, subscribed and has a points greater than 100")
 
 }
